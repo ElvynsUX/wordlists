@@ -29,9 +29,6 @@ Files range from compact, high-signal lists to multi-million-line datasets. Veri
 - Prefer small curated lists for initial scans; escalate to larger lists only when required.
 - Do not open very large files in standard editors; stream or split them (pv, split, or tool streaming).
 - Convert case or normalize if your workflow assumes lowercase:
-```bash
-tr '[:upper:]' '[:lower:]' < list.txt > list-lower.txt
-```
 
 ## Contributing
 - Add new lists under the appropriate folder and include a short SOURCE or README next to large files describing origin and license (if known).
